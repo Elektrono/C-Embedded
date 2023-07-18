@@ -1,0 +1,32 @@
+// Pratica printf, caracter especificador, especificador de formato e escape sequence
+// %[flags][width][.precision][length]specifier
+
+#include <stdio.h>
+
+int main()
+{
+    //printf("Drive:\\Teste\arquivos\fontes\");
+    //printf("\nE o rapaz disse "eu quero pensar melhor ...", porque é complicado");
+    printf("\n2 x 3 = 6");
+    printf("\n%i x %i = %i",2,3,2*3);
+    printf("\nEu quero %d pontos", 50);
+    printf("\nEu quero %i pontos", 150);
+    printf("\nVocê tem %.2f para emprestar?", 12.573);
+    printf("\nYear = %d", 2020);
+    printf("\nSua nota média = %.3f", 9.5135);
+    printf("\nA constante pi = %f", 3.1415926535);
+    printf("\nA constante pi = %.4f", 3.1415926535);
+    printf("\nA constante pi = %.2E", 3.1415926535);
+    printf("\nO numero decimal %i = %X em hexadecimal",255,255);
+    printf("\nO numero decimal %i = %#x em hexadecimal",255,255);
+
+    //printf("Vou emitir um bip\a");
+    //printf("\nEssa é a linha 1");
+    //printf("\nEssa é a linha 2");
+    //printf("\nEssa é a linha 3\r");
+    //printf("Essa é a linha 4");
+    //printf("\tContínuo na linha 4");
+    //printf("\vEssa é a linha 5");
+    //printf("\r\vEssa é a linha 6");    
+    return 0;
+}
