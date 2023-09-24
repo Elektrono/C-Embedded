@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    float v_f1 = 9.05;
+    float v_f2 = 2.575;
+    float v_f3 = 2E-4;	 // 2x10^-4
+    printf("1) %f", v_f1);
+    printf("\n2) Tamanho de armazenamento tipo float = %li bytes",sizeof(v_f1));
+    printf("\n3) %f", v_f2);
+    printf("\n4) %f", v_f3);
+     return 0;
+}

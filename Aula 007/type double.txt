@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main()
+{
+    double v_d1 = 123123123.00;
+    double v_d2 = 12.293123;
+    double v_d3 = 2312312312.123123;
+    printf("1) %lf", v_d1);
+    printf("\n2) Tamanho de armazenamento tipo double = %li bytes",sizeof(v_d1));
+    printf("\n3) %lf", v_d2);
+    printf("\n4) %lf", v_d3);
+    return 0;
+}

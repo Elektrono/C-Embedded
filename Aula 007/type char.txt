@@ -1,0 +1,21 @@
+#include <stdio.h>
+ 
+int main()
+{
+    unsigned char v_char1 = 'a';
+    unsigned char v_char2 = 97;
+    unsigned char v_char3 = 'd';
+    unsigned char v_char4 = 100;
+    unsigned char v_char5 = -25;
+    signed char v_char6 = -25;
+    printf("1) A variavel v_char1 contem: %c", v_char1);
+    printf("\n2) A variavel v_char1 contem: %c", v_char2);
+    printf("\n3) A variavel v_char1 contem: %i", v_char1);
+    printf("\n4) A variavel v_char1 contem: %d", v_char2);
+    printf("\n5) A variavel v_char3 contem: %c", v_char3);
+    printf("\n6) A variavel v_char3 contem: %d", v_char3);
+    printf("\n7) A variavel v_char4 contem: %c", v_char4);
+    printf("\n8) A variavel v_char5 contem: %d", v_char5);
+    printf("\n9) A variavel v_char6 contem: %d", v_char6);
+    return 0;
+}

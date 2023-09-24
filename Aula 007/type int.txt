@@ -1,0 +1,17 @@
+#include <stdio.h>
+int main()
+{
+    int v_num1 = 10;
+    signed int v_num2 = -10;
+    unsigned int v_num3 = 78;
+    long int v_num4 = 99989;
+    printf("1) Valor inteiro com dado positivo: %d", v_num1);
+    printf("\n2) Tamanho de armazenamento tipo int = %li bytes",sizeof(v_num1));
+    printf("\n3) Valor inteiro com dado sinalizado: %d", v_num2);
+    printf("\n4) Tamanho de armazenamento tipo signed int = %li bytes",sizeof(v_num2));
+    printf("\n5) Valor inteiro com dado não sinalizado: %u", v_num3);
+    printf("\n6) Tamanho de armazenamento tipo unsigned int = %li bytes",sizeof(v_num3));
+    printf("\n7) Valor inteiro com dado longo não sinalizado: %ld", v_num4);
+    printf("\n8) Tamanho de armazenamento tipo long int = %li bytes",sizeof(v_num4));
+    return 0;
+}
