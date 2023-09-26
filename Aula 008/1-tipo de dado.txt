@@ -1,0 +1,10 @@
+# include <stdio.h>
+
+int main()
+{
+	printf("1) Tipo char = %lu" , sizeof(char));
+	printf("\n2) Tipo int = %lu", sizeof(int));
+	printf("\n3) Tipo float = %lu", sizeof(float));
+	printf("\n4) Tipo double= %lu", sizeof(double));
+	return 0;
+}

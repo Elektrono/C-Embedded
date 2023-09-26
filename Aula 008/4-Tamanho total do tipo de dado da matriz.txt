@@ -1,0 +1,9 @@
+# include <stdio.h>
+
+int main()
+{
+	int matriz[] = {1, 3, 5, 7, 9};
+	printf("1) sizeof(matriz) = %lu" , sizeof(matriz));
+	printf("\n2) Numero de elementos da matriz = %lu" , sizeof(matriz)/sizeof(matriz[0]));
+	return 0;
+}

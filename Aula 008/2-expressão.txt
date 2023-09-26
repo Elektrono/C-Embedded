@@ -1,0 +1,10 @@
+# include <stdio.h>
+
+int main()
+{
+	char a = 100;
+	int b = 10;
+	printf("1) a + b  = %i" , (a + b));
+	printf("\n2) a + b  = %li" , sizeof(a + b));
+	return 0;
+}
